@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" width="100%" height="100%">
+  <defs>
+    <linearGradient id="centerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+    <linearGradient id="greenCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+    <linearGradient id="purpleCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#faf5ff" />
+      <stop offset="100%" stop-color="#f3e8ff" />
+    </linearGradient>
+    <linearGradient id="amberCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="100%" stop-color="#fef3c7" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="4" stdDeviation="5" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="850" fill="#f8fafc" rx="16"/>
+
+  <!-- Connector Lines -->
+  <!-- Center to Top-Left (Conceptos) -->
+  <path d="M 400 410 C 300 370 270 250 250 160" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center to Top-Right (Objetivos) -->
+  <path d="M 600 410 C 700 370 730 250 750 160" fill="none" stroke="#10b981" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center to Bottom-Left (Tipos) -->
+  <path d="M 400 470 C 300 520 270 600 250 670" fill="none" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+  <!-- Center to Bottom-Right (Usos) -->
+  <path d="M 600 470 C 700 520 730 600 750 670" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- CENTRAL NODE -->
+  <g filter="url(#shadow)">
+    <circle cx="500" cy="440" r="120" fill="url(#centerGrad)"/>
+    <circle cx="500" cy="440" r="126" fill="none" stroke="#60a5fa" stroke-width="3" stroke-dasharray="6,4"/>
+    <text x="500" y="405" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#93c5fd" letter-spacing="1.5">MAPA CONCEPTUAL</text>
+    <text x="500" y="428" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">CONCEPTOS</text>
+    <text x="500" y="448" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">FUNDAMENTALES, OBJETIVOS</text>
+    <text x="500" y="468" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff">Y APLICACIONES DE BD</text>
+    <text x="500" y="490" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#bfdbfe">Fundamentos de Bases de Datos</text>
+  </g>
+
+  <!-- BRANCH 1: CONCEPTOS FUNDAMENTALES (Top-Left) -->
+  <g filter="url(#shadow)" transform="translate(40, 50)">
+    <rect width="400" height="230" rx="14" fill="url(#blueCard)" stroke="#bfdbfe" stroke-width="2"/>
+    <rect width="380" height="34" x="10" y="10" rx="8" fill="#1d4ed8"/>
+    <text x="200" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff">1. CONCEPTOS FUNDAMENTALES</text>
+    
+    <text x="20" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">• DATO:</text>
+    <text x="75" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Unidad mínima de información sin procesar ni contexto.</text>
+
+    <text x="20" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">• INFORMACIÓN:</text>
+    <text x="125" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Datos procesados, estructurados y con significado útil.</text>
+
+    <text x="20" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">• BASE DE DATOS (BD):</text>
+    <text x="175" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Colección integrada y organizada de datos.</text>
+
+    <text x="20" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">• SGBD / DBMS:</text>
+    <text x="135" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Software mediador para definir, consultar y controlar la BD.</text>
+  </g>
+
+  <!-- BRANCH 2: OBJETIVOS CLAVE (Top-Right) -->
+  <g filter="url(#shadow)" transform="translate(560, 50)">
+    <rect width="400" height="230" rx="14" fill="url(#greenCard)" stroke="#bbf7d0" stroke-width="2"/>
+    <rect width="380" height="34" x="10" y="10" rx="8" fill="#047857"/>
+    <text x="200" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff">2. OBJETIVOS CLAVE DE UN SGBD</text>
+
+    <text x="20" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#064e3b">• Reducir REDUNDANCIA:</text>
+    <text x="180" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Evitar duplicidad inconsistente de datos.</text>
+
+    <text x="20" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#064e3b">• Garantizar INTEGRIDAD:</text>
+    <text x="185" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Validar reglas de dominio y restricciones (PK, FK).</text>
+
+    <text x="20" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#064e3b">• Controlar CONCURRENCIA:</text>
+    <text x="200" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Acceso simultáneo multiusuario sin anomalías.</text>
+
+    <text x="20" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#064e3b">• SEGURIDAD Y RECUPERACIÓN:</text>
+    <text x="225" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Privilegios de acceso y respaldo ante caídas.</text>
+  </g>
+
+  <!-- BRANCH 3: TIPOS PRINCIPALES (Bottom-Left) -->
+  <g filter="url(#shadow)" transform="translate(40, 570)">
+    <rect width="400" height="230" rx="14" fill="url(#purpleCard)" stroke="#e9d5ff" stroke-width="2"/>
+    <rect width="380" height="34" x="10" y="10" rx="8" fill="#7e22ce"/>
+    <text x="200" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff">3. MODELOS Y TIPOS PRINCIPALES</text>
+
+    <text x="20" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#581c87">• RELACIONALES (SQL / ACID):</text>
+    <text x="20" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Tablas bidimensionales estructuradas con claves PK/FK.</text>
+    <text x="20" y="108" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#7c3aed">Motores: PostgreSQL, MySQL, MariaDB, Oracle, SQL Server.</text>
+
+    <text x="20" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#581c87">• NO RELACIONALES (NoSQL / BASE):</text>
+    <text x="20" y="165" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Esquemas dinámicos, alta escalabilidad horizontal.</text>
+    <text x="20" y="185" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#7c3aed">Familias: Documental (MongoDB), Clave-Valor (Redis),</text>
+    <text x="20" y="202" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#7c3aed">Columnar (Cassandra), Grafos (Neo4j).</text>
+  </g>
+
+  <!-- BRANCH 4: USOS Y APLICACIONES (Bottom-Right) -->
+  <g filter="url(#shadow)" transform="translate(560, 570)">
+    <rect width="400" height="230" rx="14" fill="url(#amberCard)" stroke="#fde68a" stroke-width="2"/>
+    <rect width="380" height="34" x="10" y="10" rx="8" fill="#d97706"/>
+    <text x="200" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="800" fill="#ffffff">4. CAMPOS DE APLICACIÓN REAL</text>
+
+    <text x="20" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f">• BANCA Y FINANZAS:</text>
+    <text x="165" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Transacciones monetarias atómicas y auditoría.</text>
+
+    <text x="20" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f">• COMERCIO ELECTRÓNICO:</text>
+    <text x="195" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Catálogos, pedidos, carritos y facturación.</text>
+
+    <text x="20" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f">• SALUD Y CLÍNICAS:</text>
+    <text x="165" y="150" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Expedientes clínicos, recetas y citas médicas.</text>
+
+    <text x="20" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#78350f">• EDUCACIÓN / ERP:</text>
+    <text x="165" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#334155">Control escolar, kárdex, matrículas y actas.</text>
+  </g>
+</svg>

@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 720" width="100%" height="100%">
+  <defs>
+    <filter id="cardShadow" x="-3%" y="-5%" width="106%" height="112%">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1080" height="720" fill="#f8fafc" rx="14"/>
+
+  <!-- TITLE / ROOT BOX -->
+  <g filter="url(#cardShadow)" transform="translate(30, 270)">
+    <rect width="170" height="150" rx="12" fill="#0f172a"/>
+    <text x="85" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#38bdf8" letter-spacing="1">CLASIFICACIÓN</text>
+    <text x="85" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#ffffff">DE BASES</text>
+    <text x="85" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="800" fill="#ffffff">DE DATOS</text>
+  </g>
+
+  <!-- Connectors from Root to Categories -->
+  <path d="M 200 345 H 235 V 100 H 250" fill="none" stroke="#0284c7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 345 H 235 V 260 H 250" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 345 H 235 V 440 H 250" fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 200 345 H 235 V 600 H 250" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- CATEGORY 1: SEGÚN LA VARIABILIDAD -->
+  <g filter="url(#cardShadow)" transform="translate(250, 60)">
+    <rect width="160" height="80" rx="10" fill="#0284c7"/>
+    <text x="80" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Según la</text>
+    <text x="80" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Variabilidad</text>
+  </g>
+  <!-- Connector bracket C1 -->
+  <path d="M 410 100 H 430 V 75 H 445" fill="none" stroke="#0284c7" stroke-width="2"/>
+  <path d="M 410 100 H 430 V 125 H 445" fill="none" stroke="#0284c7" stroke-width="2"/>
+
+  <!-- C1 Subitems -->
+  <g filter="url(#cardShadow)" transform="translate(445, 55)">
+    <!-- Estáticas -->
+    <rect width="90" height="38" rx="6" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0369a1">Estáticas</text>
+    <rect width="500" height="38" x="100" y="0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="17" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Solo lectura; no cambian en el tiempo.</tspan></text>
+    <text x="110" y="31" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Análisis histórico, minería de datos, Data Warehouses (OLAP).</tspan></text>
+
+    <!-- Dinámicas -->
+    <rect width="90" height="38" y="50" rx="6" fill="#e0f2fe" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="45" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#0369a1">Dinámicas</text>
+    <rect width="500" height="38" x="100" y="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="67" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Modificables en tiempo real mediante operaciones CRUD.</tspan></text>
+    <text x="110" y="81" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Transaccionales (OLTP), alta concurrencia, ventas y banca.</tspan></text>
+  </g>
+
+  <!-- CATEGORY 2: SEGÚN UBICACIÓN / ARQUITECTURA -->
+  <g filter="url(#cardShadow)" transform="translate(250, 210)">
+    <rect width="160" height="90" rx="10" fill="#1d4ed8"/>
+    <text x="80" y="42" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Según la</text>
+    <text x="80" y="60" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Ubicación / Arq.</text>
+  </g>
+  <!-- Connector bracket C2 -->
+  <path d="M 410 255 H 430 V 210 H 445" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 410 255 H 430 V 255 H 445" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+  <path d="M 410 255 H 430 V 300 H 445" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+
+  <!-- C2 Subitems -->
+  <g filter="url(#cardShadow)" transform="translate(445, 190)">
+    <!-- Centralizadas -->
+    <rect width="90" height="38" rx="6" fill="#eff6ff" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Centralizadas</text>
+    <rect width="500" height="38" x="100" y="0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="17" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Almacenadas en un único servidor o nodo físico central.</tspan></text>
+    <text x="110" y="31" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Fácil administración, pero posee un único punto de falla.</tspan></text>
+
+    <!-- Distribuidas -->
+    <rect width="90" height="38" y="45" rx="6" fill="#eff6ff" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="45" y="69" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">Distribuidas</text>
+    <rect width="500" height="38" x="100" y="45" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="62" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Repartidas en múltiples nodos o centros de datos en red.</tspan></text>
+    <text x="110" y="76" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Alta tolerancia a fallos, replicación y particionamiento horizontal.</tspan></text>
+
+    <!-- En la Nube -->
+    <rect width="90" height="38" y="90" rx="6" fill="#eff6ff" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="45" y="114" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1d4ed8">En la Nube</text>
+    <rect width="500" height="38" x="100" y="90" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="107" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Alojadas y gestionadas en infraestructura cloud (DBaaS).</tspan></text>
+    <text x="110" y="121" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Escalabilidad elástica automatizada y alta disponibilidad administrada.</tspan></text>
+  </g>
+
+  <!-- CATEGORY 3: SEGÚN MODELO DE DATOS -->
+  <g filter="url(#cardShadow)" transform="translate(250, 400)">
+    <rect width="160" height="80" rx="10" fill="#d97706"/>
+    <text x="80" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Según el</text>
+    <text x="80" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Modelo de Datos</text>
+  </g>
+  <!-- Connector bracket C3 -->
+  <path d="M 410 440 H 430 V 415 H 445" fill="none" stroke="#d97706" stroke-width="2"/>
+  <path d="M 410 440 H 430 V 465 H 445" fill="none" stroke="#d97706" stroke-width="2"/>
+
+  <!-- C3 Subitems -->
+  <g filter="url(#cardShadow)" transform="translate(445, 395)">
+    <!-- Relacionales -->
+    <rect width="90" height="38" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#b45309">Relacionales</text>
+    <rect width="500" height="38" x="100" y="0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="17" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Basadas en álgebra relacional, teoría de conjuntos y tablas vinculadas.</tspan></text>
+    <text x="110" y="31" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Garantizan ACID, integridad referencial estricta y uso de SQL estándar.</tspan></text>
+
+    <!-- No Relacionales -->
+    <rect width="90" height="38" y="50" rx="6" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="45" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#b45309">NoSQL</text>
+    <rect width="500" height="38" x="100" y="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="67" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Modelos flexibles sin esquema tabular rígido (schemaless).</tspan></text>
+    <text x="110" y="81" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Escalabilidad horizontal masiva; almacena JSON, clave-valor o grafos.</tspan></text>
+  </g>
+
+  <!-- CATEGORY 4: SEGÚN NÚMERO DE USUARIOS -->
+  <g filter="url(#cardShadow)" transform="translate(250, 560)">
+    <rect width="160" height="80" rx="10" fill="#059669"/>
+    <text x="80" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Según Núm.</text>
+    <text x="80" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">de Usuarios</text>
+  </g>
+  <!-- Connector bracket C4 -->
+  <path d="M 410 600 H 430 V 575 H 445" fill="none" stroke="#059669" stroke-width="2"/>
+  <path d="M 410 600 H 430 V 625 H 445" fill="none" stroke="#059669" stroke-width="2"/>
+
+  <!-- C4 Subitems -->
+  <g filter="url(#cardShadow)" transform="translate(445, 555)">
+    <!-- Monousuario -->
+    <rect width="90" height="38" rx="6" fill="#ecfdf5" stroke="#34d399" stroke-width="1.5"/>
+    <text x="45" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#047857">Monousuario</text>
+    <rect width="500" height="38" x="100" y="0" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="17" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Soportan un único usuario o proceso concurrente a la vez.</tspan></text>
+    <text x="110" y="31" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Sistemas embebidos, configuraciones locales de escritorio (ej. SQLite).</tspan></text>
+
+    <!-- Multiusuario -->
+    <rect width="90" height="38" y="50" rx="6" fill="#ecfdf5" stroke="#34d399" stroke-width="1.5"/>
+    <text x="45" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#047857">Multiusuario</text>
+    <rect width="500" height="38" x="100" y="50" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="110" y="67" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Definición: <tspan font-weight="400" fill="#475569">Soportan cientos a millones de usuarios y conexiones concurrentes.</tspan></text>
+    <text x="110" y="81" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0f172a">Características: <tspan font-weight="400" fill="#475569">Manejo estricto de bloqueos, aislamiento de transacciones y pools.</tspan></text>
+  </g>
+</svg>

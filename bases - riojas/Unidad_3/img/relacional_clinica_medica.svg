@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="680" fill="#f1f5f9" rx="14"/>
+<g transform="translate(340, 30)" filter="url(#shadow)">
+<rect width="260" height="162" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">DiagnosticoConsulta</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">consulta_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">cita_id</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="63" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">FK,UK</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">observaciones</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">text</text>
+<rect y="110" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="110" x2="260" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="127" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">diagnostico_cie</text>
+<text x="190" y="127" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(10)</text>
+<rect y="136" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="136" x2="260" y2="136" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="153" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">signos_vitales</text>
+<text x="190" y="153" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">json</text>
+</g>
+<g transform="translate(40, 220)" filter="url(#shadow)">
+<rect width="260" height="188" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">PrescripcionMedicamento</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">prescripcion_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">consulta_id</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="63" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">FK</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre_farmaco</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(100)</text>
+<text x="215" y="101" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="110" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="110" x2="260" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="127" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">dosis</text>
+<text x="190" y="127" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(50)</text>
+<text x="215" y="127" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="136" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="136" x2="260" y2="136" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="153" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">frecuencia</text>
+<text x="190" y="153" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(100)</text>
+<text x="215" y="153" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="162" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="162" x2="260" y2="162" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="179" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">duracion_dias</text>
+<text x="190" y="179" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">smallint</text>
+<text x="215" y="179" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+</g>
+<g transform="translate(40, 480)" filter="url(#shadow)">
+<rect width="260" height="110" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Especialidad</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">especialidad_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">nombre_especialidad</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(80)</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="63" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">UK</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">descripcion</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">text</text>
+</g>
+<g transform="translate(700, 340)" filter="url(#shadow)">
+<rect width="260" height="162" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Medico</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">medico_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">cedula_profesional</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(30)</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="63" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">UK</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre_completo</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(150)</text>
+<text x="215" y="101" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="110" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="110" x2="260" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="127" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">telefono</text>
+<text x="190" y="127" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(20)</text>
+<rect y="136" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="136" x2="260" y2="136" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="153" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">especialidad_id</text>
+<text x="190" y="153" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="153" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="141" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">FK</text>
+</g>
+<g transform="translate(700, 40)" filter="url(#shadow)">
+<rect width="260" height="188" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Paciente</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">paciente_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">curp_o_id</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(25)</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="63" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="74" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">UK</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre_completo</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(150)</text>
+<text x="215" y="101" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="110" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="110" x2="260" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="127" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">fecha_nacimiento</text>
+<text x="190" y="127" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">date</text>
+<text x="215" y="127" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="136" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="136" x2="260" y2="136" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="153" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">tipo_sangre</text>
+<text x="190" y="153" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(5)</text>
+<rect y="162" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="162" x2="260" y2="162" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="179" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">telefono_emergencia</text>
+<text x="190" y="179" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(20)</text>
+</g>
+<g transform="translate(360, 260)" filter="url(#shadow)">
+<rect width="260" height="188" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+<path d="M 0 6 Q 0 0 6 0 L 254 0 Q 260 0 260 6 L 260 32 L 0 32 Z" fill="#1e6091"/>
+<text x="14" y="21" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Cita</text>
+<rect y="32" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="32" x2="260" y2="32" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="49" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#1e3a8a">cita_id</text>
+<text x="190" y="49" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="49" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="37" width="24" height="16" rx="3" fill="#3b82f6"/>
+<text x="240" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">PK</text>
+<rect y="58" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="58" x2="260" y2="58" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="75" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">fecha_hora_programada</text>
+<text x="190" y="75" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">timestamp</text>
+<text x="215" y="75" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect y="84" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="84" x2="260" y2="84" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="101" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">estado_cita</text>
+<text x="190" y="101" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">varchar(25)</text>
+<rect y="110" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="110" x2="260" y2="110" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="127" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">motivo_consulta</text>
+<text x="190" y="127" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">text</text>
+<rect y="136" width="260" height="26" fill="#f8fafc"/>
+<line x1="0" y1="136" x2="260" y2="136" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="153" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">paciente_id</text>
+<text x="190" y="153" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="153" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="141" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="152" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">FK</text>
+<rect y="162" width="260" height="26" fill="#ffffff"/>
+<line x1="0" y1="162" x2="260" y2="162" stroke="#f1f5f9" stroke-width="1"/>
+<text x="14" y="179" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0369a1">medico_id</text>
+<text x="190" y="179" text-anchor="end" font-family="monospace" font-size="10" fill="#64748b">int</text>
+<text x="215" y="179" text-anchor="middle" font-family="monospace" font-size="9" font-weight="700" fill="#94a3b8">NN</text>
+<rect x="228" y="167" width="24" height="16" rx="3" fill="#06b6d4"/>
+<text x="240" y="178" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" font-weight="800" fill="#ffffff">FK</text>
+</g>
+
+  <!-- Cita -> DiagnosticoConsulta -->
+  <line x1="470" y1="260" x2="470" y2="190" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Diagnostico -> Prescripcion -->
+  <path d="M 340 70 H 280 V 240 H 260" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Paciente -> Cita -->
+  <path d="M 700 120 H 660 V 290 H 620" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Medico -> Cita -->
+  <path d="M 700 380 H 660 V 330 H 620" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Especialidad -> Medico -->
+  <path d="M 300 520 H 660 V 420 H 700" fill="none" stroke="#94a3b8" stroke-width="2"/>
+
+</svg>

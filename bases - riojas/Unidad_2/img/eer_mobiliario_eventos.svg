@@ -1,0 +1,262 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 720" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+    <marker id="crow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#64748b" stroke-width="1.5"/>
+    </marker>
+    <marker id="triangle" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <polygon points="0,1 9,5 0,9" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  <rect width="1040" height="720" fill="#f8fafc" rx="14"/>
+<g transform="translate(140, 30)" filter="url(#shadow)">
+<rect width="220" height="174" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">CLIENTE</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_cliente</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">rfc</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">telefono</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">correo</text>
+<rect y="146" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="146" x2="220" y2="146" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="164" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="164" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">tipo_cliente</text>
+</g>
+<g transform="translate(30, 250)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">CLIENTE_PARTICULAR</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_cliente</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK,FK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">apellidos</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">curp</text>
+<rect x="182" y="123" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+</g>
+<g transform="translate(270, 250)" filter="url(#shadow)">
+<rect width="220" height="118" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">CLIENTE_EMPRESA</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_cliente</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK,FK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">razon_social</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">representante_legal</text>
+</g>
+<g transform="translate(530, 30)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">EMPLEADO</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_empleado</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">licencia_conducir</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">telefono</text>
+</g>
+<g transform="translate(780, 30)" filter="url(#shadow)">
+<rect width="220" height="118" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">CATEGORIA</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_categoria</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre_categoria</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">descripcion</text>
+</g>
+<g transform="translate(780, 240)" filter="url(#shadow)">
+<rect width="220" height="174" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">ARTICULO</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_articulo</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">decimal</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">precio_renta_unitario</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">stock_total</text>
+<rect y="146" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="146" x2="220" y2="146" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="164" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="164" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_categoria</text>
+<rect x="182" y="151" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+</g>
+<g transform="translate(440, 240)" filter="url(#shadow)">
+<rect width="220" height="258" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">CONTRATO_RENTA</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_contrato</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">folio</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">date</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">fecha_evento</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">date</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">fecha_devolucion</text>
+<rect y="146" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="146" x2="220" y2="146" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="164" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="164" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">direccion_entrega</text>
+<rect y="174" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="174" x2="220" y2="174" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="192" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="192" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">estado</text>
+<rect y="202" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="202" x2="220" y2="202" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="220" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="220" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_cliente</text>
+<rect x="182" y="207" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="219" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+<rect y="230" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="230" x2="220" y2="230" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="248" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="248" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_empleado</text>
+<rect x="182" y="235" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="247" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+</g>
+<g transform="translate(620, 520)" filter="url(#shadow)">
+<rect width="220" height="174" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">DETALLE_CONTRATO</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_detalle</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">cantidad_rentada</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">decimal</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">precio_unitario_pactado</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_contrato</text>
+<rect x="182" y="123" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+<rect y="146" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="146" x2="220" y2="146" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="164" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="164" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_articulo</text>
+<rect x="182" y="151" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+</g>
+
+  <!-- Herencia ISA -->
+  <path d="M 200 204 V 225 H 120 V 250" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="135" y="235" font-family="system-ui, sans-serif" font-size="9" fill="#475569">es (ISA)</text>
+
+  <path d="M 280 204 V 225 H 350 V 250" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="355" y="235" font-family="system-ui, sans-serif" font-size="9" fill="#475569">es (ISA)</text>
+
+  <!-- Cliente -> Contrato -->
+  <path d="M 360 140 C 420 140 440 250 440 250" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="400" y="180" font-family="system-ui, sans-serif" font-size="10" fill="#475569">solicita</text>
+
+  <!-- Empleado -> Contrato -->
+  <line x1="620" y1="186" x2="620" y2="240" stroke="#64748b" stroke-width="2"/>
+  <text x="630" y="215" font-family="system-ui, sans-serif" font-size="10" fill="#475569">entrega/recoge</text>
+
+  <!-- Categoria -> Articulo -->
+  <line x1="880" y1="158" x2="880" y2="240" stroke="#64748b" stroke-width="2"/>
+  <text x="890" y="200" font-family="system-ui, sans-serif" font-size="10" fill="#475569">clasifica</text>
+
+  <!-- Contrato -> Detalle -->
+  <path d="M 550 498 C 550 530 620 540 620 540" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="560" y="525" font-family="system-ui, sans-serif" font-size="10" fill="#475569">ampara</text>
+
+  <!-- Articulo -> Detalle -->
+  <path d="M 880 414 C 880 500 840 540 840 540" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="860" y="475" font-family="system-ui, sans-serif" font-size="10" fill="#475569">se incluye en</text>
+
+</svg>

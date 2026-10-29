@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-3%" y="-5%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="520" fill="#f8fafc" rx="14"/>
+
+  <!-- Outer Card Frame -->
+  <rect x="40" y="30" width="820" height="460" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Header Banner -->
+  <rect x="40" y="30" width="820" height="60" rx="12" fill="#0f172a"/>
+  <text x="450" y="68" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="800" fill="#38bdf8" letter-spacing="1.5">FLUJO DE INGENIERÍA INVERSA EN HERRAMIENTAS CASE</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#shadow)" transform="translate(100, 115)">
+    <rect width="700" height="50" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+    <circle cx="35" cy="25" r="16" fill="#2563eb"/>
+    <text x="35" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">1</text>
+    <text x="70" y="31" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e3a8a">Ejecución del Script DDL en el Servidor (Creación física de tablas, tipos de datos y FKs)</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <polygon points="450,185 444,173 456,173" fill="#3b82f6"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#shadow)" transform="translate(100, 190)">
+    <rect width="700" height="50" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+    <circle cx="35" cy="25" r="16" fill="#2563eb"/>
+    <text x="35" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">2</text>
+    <text x="70" y="31" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e3a8a">Apertura del Asistente en la herramienta CASE: "Database" &gt; "Reverse Engineer"</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <polygon points="450,260 444,248 456,248" fill="#3b82f6"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#shadow)" transform="translate(100, 265)">
+    <rect width="700" height="50" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+    <circle cx="35" cy="25" r="16" fill="#2563eb"/>
+    <text x="35" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">3</text>
+    <text x="70" y="31" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e3a8a">Conexión al Host Local e inspección automática del catálogo 'information_schema'</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <polygon points="450,335 444,323 456,323" fill="#3b82f6"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#shadow)" transform="translate(100, 340)">
+    <rect width="700" height="50" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+    <circle cx="35" cy="25" r="16" fill="#2563eb"/>
+    <text x="35" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">4</text>
+    <text x="70" y="31" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#1e3a8a">Detección y extracción automática de Metadatos: Claves primarias, foráneas e índices</text>
+  </g>
+
+  <!-- Arrow 4 -> 5 -->
+  <polygon points="450,410 444,398 456,398" fill="#3b82f6"/>
+
+  <!-- Step 5 -->
+  <g filter="url(#shadow)" transform="translate(100, 415)">
+    <rect width="700" height="50" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="1.8"/>
+    <circle cx="35" cy="25" r="16" fill="#059669"/>
+    <text x="35" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">5</text>
+    <text x="70" y="31" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#065f46">Generación del Esquema Visual con conectores pata de gallo (Crow's Foot - 3FN)</text>
+  </g>
+</svg>

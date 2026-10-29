@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 780" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="110%">
+      <feDropShadow dx="1" dy="3" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+    <marker id="crow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#64748b" stroke-width="1.5"/>
+    </marker>
+    <marker id="triangle" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <polygon points="0,1 9,5 0,9" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+    </marker>
+  </defs>
+  <rect width="800" height="780" fill="#f8fafc" rx="14"/>
+<g transform="translate(150, 30)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">PERSONA</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_persona</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">curp</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">correo_institucional</text>
+<rect x="182" y="123" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+</g>
+<g transform="translate(270, 200)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">PROFESOR</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_persona</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK,FK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">num_empleado</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">cubiculo</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">decimal</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">salario</text>
+</g>
+<g transform="translate(40, 390)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">ESTUDIANTE</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_persona</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK,FK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">matricula</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">UK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">semestre</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">decimal</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">promedio</text>
+</g>
+<g transform="translate(530, 200)" filter="url(#shadow)">
+<rect width="220" height="118" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">MATERIA</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">clave_materia</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">nombre</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">creditos</text>
+</g>
+<g transform="translate(460, 390)" filter="url(#shadow)">
+<rect width="220" height="174" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">GRUPO</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_grupo</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">codigo_grupo</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">aula</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">string</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">clave_materia</text>
+<rect x="182" y="123" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="135" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+<rect y="146" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="146" x2="220" y2="146" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="164" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="164" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_profesor</text>
+<rect x="182" y="151" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="163" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+</g>
+<g transform="translate(250, 590)" filter="url(#shadow)">
+<rect width="220" height="146" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+<path d="M 0 8 Q 0 0 8 0 L 212 0 Q 220 0 220 8 L 220 34 L 0 34 Z" fill="#7c3aed"/>
+<text x="110.0" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">INSCRIPCION</text>
+<rect y="34" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="34" x2="220" y2="34" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="52" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="52" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#7c3aed">id_inscripcion</text>
+<rect x="182" y="39" width="28" height="18" rx="4" fill="#ede9fe"/>
+<text x="196" y="51" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#6d28d9">PK</text>
+<rect y="62" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="62" x2="220" y2="62" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="80" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="80" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_estudiante</text>
+<rect x="182" y="67" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="79" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+<rect y="90" width="220" height="28" fill="#faf5ff"/>
+<line x1="0" y1="90" x2="220" y2="90" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="108" font-family="monospace" font-size="11" fill="#64748b">int</text>
+<text x="65" y="108" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#0284c7">id_grupo</text>
+<rect x="182" y="95" width="28" height="18" rx="4" fill="#e0f2fe"/>
+<text x="196" y="107" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="800" fill="#0369a1">FK</text>
+<rect y="118" width="220" height="28" fill="#ffffff"/>
+<line x1="0" y1="118" x2="220" y2="118" stroke="#f1f5f9" stroke-width="1"/>
+<text x="12" y="136" font-family="monospace" font-size="11" fill="#64748b">decimal</text>
+<text x="65" y="136" font-family="system-ui, sans-serif" font-size="11" font-weight="500" fill="#0f172a">calificacion_final</text>
+</g>
+
+  <!-- Persona -> Profesor (ISA) -->
+  <path d="M 280 176 V 190 H 350 V 200" fill="none" stroke="#64748b" stroke-width="2"/>
+  <rect x="290" y="175" width="45" height="18" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="312" y="188" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#475569">es (ISA)</text>
+
+  <!-- Persona -> Estudiante (ISA) -->
+  <path d="M 200 176 V 290 H 130 V 390" fill="none" stroke="#64748b" stroke-width="2"/>
+  <rect x="135" y="275" width="45" height="18" rx="4" fill="#f1f5f9" stroke="#cbd5e1"/>
+  <text x="157" y="288" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="#475569">es (ISA)</text>
+
+  <!-- Profesor -> Grupo -->
+  <path d="M 380 346 C 380 370 460 370 460 410" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="405" y="375" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#475569">imparte</text>
+
+  <!-- Materia -> Grupo -->
+  <line x1="600" y1="318" x2="600" y2="390" stroke="#64748b" stroke-width="2"/>
+  <text x="615" y="355" font-family="system-ui, sans-serif" font-size="10" fill="#475569">oferta</text>
+
+  <!-- Estudiante -> Inscripcion -->
+  <path d="M 150 536 C 150 580 250 610 250 610" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="180" y="570" font-family="system-ui, sans-serif" font-size="10" fill="#475569">realiza</text>
+
+  <!-- Grupo -> Inscripcion -->
+  <path d="M 530 564 C 530 600 470 610 470 610" fill="none" stroke="#64748b" stroke-width="2"/>
+  <text x="510" y="585" font-family="system-ui, sans-serif" font-size="10" fill="#475569">registra</text>
+
+</svg>
